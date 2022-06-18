@@ -6,7 +6,7 @@
 }
 
 body {
-  background: lavender;
+  background: white;
 }
 
 nav {
@@ -96,4 +96,112 @@ nav ul ul ul li {
 
 .logo i {
   color: #04aa6d;
+}
+
+.parent-div {
+  display: flex;
+  justify-content: center;
+}
+.login-signup-form {
+  position: relative;
+  top: 100px;
+  width: 400px;
+  border-radius: 10px;
+  padding: 25px 0px;
+  font-family: Comfortaa;
+  box-shadow: -3px -3px 7px rgb(240, 240, 240),
+    2px 2px 5px rgba(95, 105, 120, 0.3);
+}
+
+.login-signup-form h3 {
+  text-align: center;
+  padding-bottom: 25px;
+  border-bottom: 1px solid silver;
+}
+
+.login-signup-form form {
+  padding: 25px 25px 0px 25px;
+}
+
+.login-signup-form form span {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px 0px;
+  font-size: 12px;
+}
+form span hr {
+  width: 48%;
+  max-height: 1px;
+  margin: 5px 5px 0px 5px;
+  color: #333;
+  border: 0px;
+  background: #333;
+}
+
+.input-fields input {
+  position: relative;
+  width: 96%;
+  margin: 2px 0px 10px 0px;
+  padding: 10px 5px;
+  border: 1px solid white;
+  border-bottom: 1px solid #333;
+  outline: none;
+  font-family: Comfortaa;
+}
+
+.qsn {
+  margin: 10px 0px;
+}
+.qsn a {
+  text-decoration: none;
+  color: #04aa6d;
+}
+
+.qsn a:hover {
+  font-weight: bold;
+}
+
+.login-signup-btn {
+  width: 100%;
+  background: #04aa6d;
+  padding: 10px 5px;
+  font-size: 15px;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #04aa6d;
+}
+
+.login-signup-btn:hover {
+  opacity: 0.8;
+  transition: all 0.5s ease-out;
+}
+
+.login-signup-form button {
+  width: 88%;
+  margin: 5px 25px;
+  padding: 10px 5px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.login-signup-form button:hover {
+  opacity: 0.7;
+  transition: all 0.5s ease-out;
+}
+
+.login-signup-form button i {
+  font-size: 18px;
+  margin: 0px 5px;
+}
+
+.sign-in-google {
+  background: black;
+  border: 1px solid black;
+  color: white;
+}
+
+.sign-in-facebook {
+  background: royalblue;
+  color: white;
+  border: 1px solid royalblue;
 }
